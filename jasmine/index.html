@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+  <script type="text/javascript" src="node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+  <script type="text/javascript" src="node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+  <script type="text/javascript" src="node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+</head>
+
+<body>
+  <script>
+  describe('这是一个suite',
+    function () {
+      var a;
+      it('这是一个spec',
+        function () {
+          a = true;
+          expect(a).toBe(true);
+        });
+    });
+</script>
+</body>
+
+</html>
